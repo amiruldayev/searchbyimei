@@ -23,8 +23,8 @@ def search_number_in_files(root_folder, search_number):
     return results
 
 # Пример использования
-root_folder = r'C:\Users\Emil.Amiruldayev\Desktop\HTT distribution list'  # Исправьте на абсолютный путь
-search_number = 'RZ8KC1K871D'  # Номер, который необходимо найти
+root_folder = r'C:\Users\Emil.Amiruldayev\Desktop\...'  # Исправьте на абсолютный путь
+search_number = '123456'  # Номер, который необходимо найти
 found_files = search_number_in_files(root_folder, search_number)
 
 if found_files:
